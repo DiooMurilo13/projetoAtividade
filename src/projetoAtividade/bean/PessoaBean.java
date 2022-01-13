@@ -1,4 +1,4 @@
-package projetoAtividade;
+package projetoAtividade.bean;
 
 public class PessoaBean {
 private	Integer id;

@@ -1,11 +1,14 @@
-package projetoAtividade;
+package projetoAtividade.bo;
 
 import java.util.HashMap;
+
+import projetoAtividade.bean.AtividadeBean;
+import projetoAtividade.bean.PessoaBean;
 
 public class PessoaBO {
 	PessoaBean pessoaBean = new PessoaBean();
 	AtividadeBean ativBean = new AtividadeBean();
-	HashMap<Integer,PessoaBean> pessoaMap = new HashMap<Integer,PessoaBean>();
+	public HashMap<Integer,PessoaBean> pessoaMap = new HashMap<Integer,PessoaBean>();
 	Integer idPessoaBean = 0;
 	
 	

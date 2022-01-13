@@ -2,6 +2,10 @@ package projetoAtividade;
 
 import java.util.Scanner;
 
+import projetoAtividade.bean.PessoaBean;
+import projetoAtividade.bo.AtividadeBO;
+import projetoAtividade.bo.PessoaBO;
+
 public class ScreenView {
 	public static void main(String[] args) {
 		AtividadeBO atividadeBO = new AtividadeBO();

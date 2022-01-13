@@ -1,4 +1,4 @@
-package projetoAtividade;
+package projetoAtividade.bean;
 
 public class AtividadePessoaPrestadorBean {
 	private Integer id;

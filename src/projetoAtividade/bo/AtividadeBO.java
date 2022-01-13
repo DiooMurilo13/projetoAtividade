@@ -1,12 +1,16 @@
-package projetoAtividade;
+package projetoAtividade.bo;
 
 import java.util.HashMap;
+
+import projetoAtividade.bean.AtividadeBean;
+import projetoAtividade.bean.AtividadePessoaPrestadorBean;
+import projetoAtividade.bean.PessoaBean;
 
 public class AtividadeBO {
 	AtividadePessoaPrestadorBean ativPessoaBean = null;
 	AtividadeBean ativBean = new AtividadeBean();
 	HashMap<Integer, AtividadePessoaPrestadorBean> ativPessoaMap = new HashMap<Integer, AtividadePessoaPrestadorBean>();
-	HashMap<Integer, AtividadeBean> atividadeMap = new HashMap<Integer, AtividadeBean>();
+	public HashMap<Integer, AtividadeBean> atividadeMap = new HashMap<Integer, AtividadeBean>();
 	Integer chaveId = 0;
 	Integer percentualTarefa = 0;
 	Integer idAtivPesBean = 0;
